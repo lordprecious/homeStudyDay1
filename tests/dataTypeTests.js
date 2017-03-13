@@ -1,4 +1,4 @@
-dataTypes = require('../app/library.js').dataTypes;
+dataTypes = require('../app/dataTypes.js').dataTypes;
 describe("Data types tests ", function() {
   describe("Case for some falsy values", function() {
 
