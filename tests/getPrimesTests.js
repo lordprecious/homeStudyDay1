@@ -4,15 +4,15 @@ describe('prime of a number ', function () {
     describe('Return prime numbers from two to the given number in a array`[]`', function () {
 
       it('should return "prime number starts from 2" for 0', function () {
-        expect(getPrimes(0)).toEqual("prime number starts from 2");
+        expect(getPrimes(0)).toEqual([]);
       });
 
       it('should return "prime number starts from 2" for -1', function () {
-        expect(getPrimes(-1)).toEqual("prime number starts from 2");
+        expect(getPrimes(-1)).toEqual([]);
       });
 
        it('should return "prime number starts from 2" for -5', function () {
-        expect(getPrimes(-5)).toEqual("prime number starts from 2");
+        expect(getPrimes(-5)).toEqual([]);
       });
 
       it('should return "input is not a number" for "word"', function () {
@@ -24,7 +24,7 @@ describe('prime of a number ', function () {
       });
 
       it('should return "prime number starts from 2" for 1', function () {
-        expect(getPrimes(1)).toEqual("prime number starts from 2");
+        expect(getPrimes(1)).toEqual([]);
       });
 
       it('should return [2] for 2', function () {
@@ -56,11 +56,11 @@ describe('prime of a number ', function () {
       });
 
       it('should return "prime number starts from 2" for -10', function () {
-        expect(getPrimes(-10)).toEqual("prime number starts from 2");
+        expect(getPrimes(-10)).toEqual([]);
       });
 
       it('should return "prime number starts from 2" for 2', function () {
-        expect(getPrimes(-10000)).toEqual("prime number starts from 2");
+        expect(getPrimes(-10000)).toEqual([]);
       });
 
 
